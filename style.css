@@ -49,3 +49,21 @@ body {
     text-decoration: none;
     color: inherit;
 }
+
+@media only screen and (min-width: 768px) {
+
+    .mobile--show {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .product {
+        width: 100%;
+    }
+
+    .mobile--hide {
+        display: none;
+    }
+}
